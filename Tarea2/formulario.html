@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8"/>
+        <link href="favicon.png" rel="icon">  
+        <style>
+            .desactivar {
+                list-style:none;
+            }
+            ul{
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body> 
+    <h1> Cultura de ciberseguridad </h1>   
+    <nav>
+        <h3>Elija la sección de su preferencia: </h3>
+        <ul class="desactivar">
+            <li><a href="index.html" >Inicio</a></li>
+            <li><a href="criptografia.html" >Criptografia</a></li>
+            <li><a href="malware.html" >Ataques informáticos y Malware</a></li>
+            <li><a href="empezar.html" >¿Como empezar?</a></li>
+            <li><a href="formulario.html">Formulario</a></li>
+        </ul>
+    </nav>
+<header>
+    <h1>Formulario de contacto</h1>
+    <p>
+       Aquí podrá solicitar mas información sobre algun tema de interes.
+    </p>
+</header>
+<hr>
+<section>
+    <form method="post">
+        <fieldset>
+            <legend><h2>Información personal:</h2></legend>
+            <br>
+            <h3><label>Nombre</label></h3>
+            <input name="nom" type="text" maxlength="15" size="30" placeholder="Escriba su nombre completo" required autofocus/>    
+            <br><br>
+            <h3><label>Apellidos</label></h3>
+            <input name="ape" type="text" maxlength="15" size="30" placeholder="Escriba sus apellidos completos" required/>
+            <br><br>
+            <h3><label>Email</label></h3>
+            <input name="cor" type="email" placeholder="Formato del email: nombre@dominio.com" required/>
+            <br><br>
+            <h3>Quiero solicitar la información en rol de: </h3>
+            <input type="radio" name="rol" value="Profesor" checked>Profesor<br>
+            <input type="radio" name="rol" value="Estudiante">Estudiante<br>
+            <input type="radio" name="rol" value="Profecional">Profecional<br>
+            <input type="radio" name="rol" value="Otro">Otro<br>
+            <br><br>
+            <h3><label>Mensaje</label></h3>
+            <input name="com" placeholder="Escriba su mensaje" required>
+            <br><br><br>
+            <input name="enviar" type="submit" value="Enviar">
+            <input name="borrar" type="reset" value="Borrar">
+        </fieldset>
+    </form>
+</section>
+<footer>
+    <h2>Joseph Castillo 2020</h2>
+    <h2>Derechos Reservados</h2>
+</footer>
+</body>
+</html>
+
